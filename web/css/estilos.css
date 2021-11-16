@@ -1,0 +1,145 @@
+div.encabezado { 
+    height: 150px; 
+    width: 100%; 
+    border-bottom: 3px ridge Silver; 
+    text-align: center; 
+} 
+/* Regla de estilo para la división con el logotipo dentro del encabezado 
+*/ 
+div.titulo { 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 800px; 
+} 
+/* Regla de estilo para la división con el menú */ 
+div#menuPpal { 
+    top: 151px; 
+    width: 15%; 
+    height: auto; 
+    background-color: #ccc; 
+} 
+/* Regla de estilo para la lista no ordenada que forma el menú */ 
+ul#menu { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    border-top: 1px solid #000; 
+}
+
+/* Regla de estilo para la los elementos de la lista no ordenada que 
+forman las opciones del menú */ 
+ul#menu li { 
+    position: relative; 
+    width: 15%; 
+    float: left; 
+    clear: left; 
+} 
+/* Regla de estilo para las ligas que forman las opciones del menú */ 
+ul#menu li a { 
+    display: block; 
+    text-decoration: none; 
+    color: #000; 
+    background: #ccc; 
+    line-height: 2em; 
+    height: 2em; 
+    padding: 0 5px; 
+    border: 1px solid #000; 
+    border-top: none; 
+} 
+/* Regla de estilo para cuando se pasa el raton sobre las ligas que forman 
+las opciones del menú */ 
+#menu li:hover a { 
+    color: #ccc; 
+    background-color: #777; 
+} 
+/* Regla de estilo para segmento principal de las páginas de la aplicación 
+*/ 
+div.principal { 
+    position: absolute; 
+    top: 151px; 
+    left: 20%; 
+    width: 80%; 
+    border-right: 3px ridge Silver; 
+} 
+div.contenido { 
+    padding-left: 1em; 
+    padding-right: 1em; 
+    padding-top: 1em; 
+} 
+/* Regla de estilo para las ligas de las opciones del menú */ 
+div.opcion a { 
+    text-decoration: none; 
+    color: white; 
+} 
+/* Regla de estilo para centrar horizontalmente una tabla */ 
+table.centrada { 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/* Regla de estilo para la los elementos de la lista no ordenada que 
+forman las opciones del menú */ 
+ul#menu li { 
+    position: relative; 
+    width: 15%; 
+    float: left; 
+    clear: left; 
+} 
+/* Regla de estilo para las ligas que forman las opciones del menú */ 
+ul#menu li a { 
+    display: block; 
+    text-decoration: none; 
+    color: #000; 
+    background: #ccc; 
+    line-height: 2em; 
+    height: 2em; 
+    padding: 0 5px; 
+    border: 1px solid #000; 
+    border-top: none; 
+} 
+/* Regla de estilo para cuando se pasa el raton sobre las ligas que forman 
+las opciones del menú */ 
+#menu li:hover a { 
+    color: #ccc; 
+    background-color: #777; 
+} 
+/* Regla de estilo para segmento principal de las páginas de la aplicación 
+*/ 
+div.principal { 
+    position: absolute; 
+    top: 151px; 
+    left: 20%; 
+    width: 80%; 
+    border-right: 3px ridge Silver; 
+} 
+div.contenido { 
+    padding-left: 1em; 
+    padding-right: 1em; 
+    padding-top: 1em; 
+} 
+/* Regla de estilo para las ligas de las opciones del menú */ 
+div.opcion a { 
+    text-decoration: none; 
+    color: white; 
+} 
+/* Regla de estilo para centrar horizontalmente una tabla */ 
+table.centrada { 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+tr.encabezado { 
+    background-color: rgb(220, 220, 220); 
+}
+
+tr.non { 
+    background-color: white; 
+} 
+
+tr.par { 
+     background-color: yellow; 
+} 
+
+input[readonly="true"] { 
+     background-color: rgb(220, 220, 220); 
+} 

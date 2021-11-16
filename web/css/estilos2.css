@@ -1,0 +1,220 @@
+/* 
+    estilos.css
+
+    Establece las reglas de estilo generas para la aplicacion Web
+    AmanteMusicaWeb versión JSP.
+*/
+
+/* Regla de estilo para el encabezado de las paginas */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: calc(100% - 2px);
+    border: 1px solid Silver;
+    text-align: center;
+}
+
+/* Regla de estilo para la barra de navegacion */
+nav {
+    position: absolute;
+    top: 151px;
+    left: 0;
+    width: 250px;
+    height: calc(100% - 154px);
+    border: 1px solid silver;
+}
+
+/* Regla de estilo para el segmento principal  */
+main {
+  position: absolute;
+  top: 151px;
+  left: 251px;
+  height: calc(100% - 154px);
+  width: calc(100% - 254px);
+  border: 1px solid silver;
+}
+
+/* Regla de estilo para la lista no ordenada que forma
+   la barra de navegacion */
+nav ul {
+    width:250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Regla de estilo para los elementos de la lista dentro
+   de la barra de navegacion */
+nav li {
+  position: relative;
+  width: 250px;
+  float: left;
+  clear: left;
+}
+
+/* Regla de estilo para las ligas que forman los elementos de
+   la lista dentro de la barra de navegacion */
+nav li a {
+    display: block;
+    width: 230px;  
+    text-decoration: none;
+    color: #000;
+    background-color: #ccc;
+    line-height: 2em;
+    height: 2em;
+    padding: 0 10px;
+    border-bottom: 1px solid Silver;
+}
+
+/* Regla de estilo para las ligas no visitadas dentro de la 
+   barra de navegacion */
+nav a:link {
+      color: Blue; 
+}
+
+/* Regla de estilo para las ligas visitadas dentro de la 
+   barra de navegacion */
+nav a:visited {
+      color: fuchsia; 
+}
+
+/* Regla de estilo para las ligas dentro de la barra de navegacion
+   sobre las que se pasa el raton */
+nav a:hover {
+    color: #eee;
+    background-color: #777;
+}
+
+/* Regla de estilo para centrar horizontalmente una tabla
+   usada para colocar los elementos de entrada de los formularios
+   y en las que se despliegan los miembros de un objeto*/
+table.centrada {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Regla de estilo para centrar horizontalmente una tabla.
+   usada para  las tablas en la que se despliegan las listas */
+table.bicolor {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+/* Regla de estilo para los titulos de las tablas */
+caption {
+   caption-side: top;
+   margin-bottom: 0.5em;
+   font-size: 150%;
+   font-weight: bold;
+}
+
+
+/* Regla de estilo para los renglones nones de una tabla.
+   Se usa para  las tablas en la que se despliegan las listas */
+table.bicolor tr:nth-child(odd) {
+    background-color: yellow;
+}
+
+/* Regla de estilo para los renglones pares de una tabla.
+   Se usa para  las tablas en la que se despliegan las listas */
+table.bicolor tr:nth-child(even) {
+    background-color: white;
+}
+
+/* Regla de estilo para celdas de tabla con encabezados */
+th {
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid #888;
+}
+
+/* Regla de estilo para celdas de tabla con encabezados
+   usadas para colocar los mensajes de error */
+th.error {
+    text-align: right;
+    padding-right: 5px;
+    background-color: #fff;
+    border-style: none;
+}
+
+/* Regla de estilo para justificar a la derecha las celdas de tabla
+   usadas en las celdas que tienen las etiquetas de los elementos
+   de entrada de un formulario y en las celdas que se despliegan
+   los nombres de los miembros de un objeto */
+td.derecha {
+    text-align: right;
+    padding-right: 5px;
+}
+
+/* Regla de estilo para las celdas de tabla con fondo gris
+   usadas en las celdas que se despliegan los valores de 
+   los miembros de un objeto */
+td.gris {
+    background-color: #ddd;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #888;
+}
+
+/* Regla de estilo para las celdas de una tabla
+   usadas para  las tablas en la que se despliegan las listas */
+table.bicolor td {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #888;
+}
+
+/* Regla de estilo para las celdas usadas para mensajes de error */
+div.msjError {
+  color: red;
+  padding-left: 5px;
+}
+
+/* Regla de estilo para las celdas usadas para mensajes de aviso */
+div.msjAviso {
+  color: green;
+  white-space: pre;
+  padding-left: 5px;
+}
+
+/* Regla de estilo para centrar horizontalmente encabezados */
+h1 {
+   text-align: center;
+}
+
+/* Regla de estilo para elementos de entrada de solo lectura */
+input[readonly] {
+    background-color: #ddd;
+}
+
+div.tabla {
+  display: table;
+  margin: auto;
+}
+
+div.tituloTabla {
+    display: table-caption;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+div.fila {
+  display: table-row;
+}
+
+div.celda {
+  display: table-cell;
+  padding: 5px;
+}
+
+div.celda.derecha {
+  display: table-cell;
+  text-align: right;
+}
+
+div.centrada {
+    text-align: center;
+}
